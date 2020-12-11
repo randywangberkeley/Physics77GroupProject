@@ -20,8 +20,7 @@ variables = {
 
 @ct.application(title='Calculate a regional mean and  anomalies', layout=layout)
 @ct.input.dropdown('variable', label='Variable', values=variables.keys())
-@ct.input.dropdown('region', label='Region', values=['Europe', 'Arctic', 'Mediterranean', 'Global'],
-                   help='Map projection will change accordingly.')
+@ct.input.dropdown('region', label='Region', values=['Europe', 'Arctic', 'Mediterranean', 'Global'])
 @ct.output.livefigure()
 def compute_anomaly(variable, region):
 
