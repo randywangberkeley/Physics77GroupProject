@@ -1,5 +1,5 @@
 import cdstoolbox as ct
-#To be used in CDtoolbox editor
+#To be used in CDStoolbox editor
 #Code format obtained from CDstoolbox example graphs!
 layout = {
     'input_ncols': 2,
