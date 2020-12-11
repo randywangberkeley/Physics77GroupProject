@@ -1,5 +1,5 @@
 import cdstoolbox as ct
-
+#To be used in CDtoolbox editor
 layout = {
     'input_ncols': 2,
     'input_align': 'top'
