@@ -1,5 +1,6 @@
 import cdstoolbox as ct
 #To be used in CDtoolbox editor
+#Code format obtained from CDstoolbox example graphs!
 layout = {
     'input_ncols': 2,
     'input_align': 'top'
@@ -23,16 +24,7 @@ variables = {
                    help='Map projection will change accordingly.')
 @ct.output.livefigure()
 def compute_anomaly(variable, region):
-    """
-    Application main steps:
 
-    - retrieve a variable over a defined time range
-    - compute the monthly mean
-    - compute the anomaly, i.e. the difference between the monthly timeseries and its climatology
-    - compute the area weighted mean over a specified region
-    - show the result as a timeseries on an interactive chart
-
-    """
 
     data = ct.catalogue.retrieve(
         'projections-cmip5-monthly-single-levels',
