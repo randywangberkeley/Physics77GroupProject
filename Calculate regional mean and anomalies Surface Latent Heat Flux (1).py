@@ -1,6 +1,6 @@
 import cdstoolbox as ct
 #To be used in CDStoolbox editor
-#Code format obtained from CDstoolbox example graphs!
+#Code format obtained from CDstoolbox example graphs (calculate regional means and anamolies for 2m surface temp, wind speed etc)
 layout = {
     'input_ncols': 2,
     'input_align': 'top'
